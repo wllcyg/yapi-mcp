@@ -1,0 +1,28 @@
+{
+  "name": "yapi-mcp-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server for querying YApi interfaces by project-level token map",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "yapi-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

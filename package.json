@@ -1,5 +1,5 @@
 {
-  "name": "@wllcyg/yapi-mcp",
+  "name": "@wllcyg001/yapi-mcp",
   "version": "0.1.0",
   "private": false,
   "description": "MCP server for querying YApi interfaces by project-level token map",

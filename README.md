@@ -1,4 +1,4 @@
-# yapi-mcp-server
+# @wllcyg/yapi-mcp
 
 YApi MCP Server（Node.js + MCP SDK），提供按需查询的两个核心工具：
 
@@ -64,7 +64,7 @@ npm run dev
   "mcpServers": {
     "yapi": {
       "command": "npx",
-      "args": ["-y", "yapi-mcp-server"],
+      "args": ["-y", "@wllcyg/yapi-mcp"],
       "env": {
         "YAPI_BASE_URL": "http://10.255.30.245:3000"
       }

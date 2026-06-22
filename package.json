@@ -1,7 +1,7 @@
 {
-  "name": "yapi-mcp-server",
+  "name": "@wllcyg/yapi-mcp",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "MCP server for querying YApi interfaces by project-level token map",
   "type": "module",
   "main": "dist/index.js",
